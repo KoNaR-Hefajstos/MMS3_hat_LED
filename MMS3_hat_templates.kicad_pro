@@ -598,6 +598,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Buck Regulator/VIN_BRD": [
+        "50V"
+      ],
+      "/Buck Regulator/sw-vin": [
+        "50V "
+      ],
       "/Power Connector/VIN_BRD": [
         "50V"
       ],
@@ -1081,7 +1087,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "D1",
+    "used_designators": "#PWR103,#PWR115-118,C7,R32-34,R47,R49-50,J9,Q3-4,Q8",
     "variants": []
   },
   "sheets": [
@@ -1104,6 +1110,26 @@
     [
       "56050d79-5900-47d6-893d-3da0e8bf5810",
       "ID EEPROM"
+    ],
+    [
+      "9c50d694-b9ec-4000-86cb-9e963f960f44",
+      "LED_IC"
+    ],
+    [
+      "b69d4d5c-d5f2-4841-92bb-9c1f2467a91f",
+      "LED_uC"
+    ],
+    [
+      "1fa50cc0-81ad-4331-90de-681d56270af0",
+      "Buck Regulator"
+    ],
+    [
+      "f4f5cc42-4af7-4189-bf2e-976157de876a",
+      "CH32V003"
+    ],
+    [
+      "fa62f7ef-38f0-4745-b285-add2290a5675",
+      "LEDController"
     ]
   ],
   "text_variables": {
