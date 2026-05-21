@@ -1087,7 +1087,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "#PWR103,#PWR115-118,C7,R32-34,R47,R49-50,J9,Q3-4,Q8",
+    "used_designators": "R1-130,#FLG1-5,J1-11,J13-16,D1-9,#PWR1-148,C1-20,Q1-52,#SYM1-2,H1-9,L1,S1,TP1,U1-7,X1",
     "variants": []
   },
   "sheets": [
@@ -1116,20 +1116,24 @@
       "LED_IC"
     ],
     [
-      "b69d4d5c-d5f2-4841-92bb-9c1f2467a91f",
-      "LED_uC"
+      "f4f5cc42-4af7-4189-bf2e-976157de876a",
+      "CH32V003"
     ],
     [
       "1fa50cc0-81ad-4331-90de-681d56270af0",
       "Buck Regulator"
     ],
     [
-      "f4f5cc42-4af7-4189-bf2e-976157de876a",
-      "CH32V003"
+      "f0498328-12ea-48bd-af20-2754c3443d1a",
+      "LEDController1"
     ],
     [
       "fa62f7ef-38f0-4745-b285-add2290a5675",
       "LEDController"
+    ],
+    [
+      "97917fec-c6f5-4dd2-aeb9-9036b4e52fd1",
+      "LEDController2"
     ]
   ],
   "text_variables": {
