@@ -10522,6 +10522,17 @@
 		)
 		(uuid "0a4aea29-d861-46e4-9e7f-32102b1a5150")
 	)
+	(hierarchical_label "U_IN"
+		(shape input)
+		(at 236.22 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4366c882-3b68-4501-8ce4-166b84357272")
+	)
 	(hierarchical_label "G"
 		(shape input)
 		(at 104.14 135.89 180)
@@ -10532,6 +10543,17 @@
 			(justify right)
 		)
 		(uuid "48b5940d-a2f6-43de-9ff3-7888f31d8085")
+	)
+	(hierarchical_label "U_IN"
+		(shape input)
+		(at 158.75 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90e11472-7906-4291-95cc-cbfa34bfec15")
 	)
 	(hierarchical_label "B"
 		(shape input)
@@ -10544,92 +10566,16 @@
 		)
 		(uuid "a2e36b4f-6304-40c1-82ad-d45978218804")
 	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 109.22 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0001adb3-8bf2-446c-907a-972b6f6858b8")
-		(property "Reference" "#PWR0125"
-			(at 158.75 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "U_IN"
+		(shape input)
+		(at 77.47 109.22 90)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "U_reg"
-			(at 158.75 105.918 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff84c49a-6abf-430c-a58d-58a257e7f0fe")
-		)
-		(instances
-			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "acf3eab2-7ed7-49a5-942d-66b0fd3889f0")
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NPN,MMBT2222A 1P")
@@ -17036,93 +16982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 236.22 109.22 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b642aeb7-0289-40cb-9218-ae234473fec4")
-		(property "Reference" "#PWR0127"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "U_reg"
-			(at 236.22 105.918 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 236.22 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c4353f0-51e5-40db-8f23-a745c55bf471")
-		)
-		(instances
-			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
-					(reference "#PWR0127")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,330Ω")
 		(at 204.47 118.11 0)
 		(unit 1)
@@ -19548,93 +19407,6 @@
 				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 77.47 109.22 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fb3ab513-ed7d-43d0-9538-17b7c73a5b11")
-		(property "Reference" "#PWR0123"
-			(at 77.47 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "U_reg"
-			(at 77.47 105.918 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 77.47 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a8ac14ae-38a7-4f86-af53-e5167acaa29f")
-		)
-		(instances
-			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
-					(reference "#PWR0123")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
