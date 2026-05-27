@@ -3065,10 +3065,6 @@
 		(uuid "5b01e4ed-6053-484b-8a1e-3f721c4391f6")
 	)
 	(no_connect
-		(at 72.39 77.47)
-		(uuid "7d48e791-03c9-471e-8915-098cb8746338")
-	)
-	(no_connect
 		(at 72.39 69.85)
 		(uuid "816dd887-bf43-4041-9121-100248af0893")
 	)
@@ -3079,10 +3075,6 @@
 	(no_connect
 		(at 72.39 59.69)
 		(uuid "ecb3cc74-cfd6-452f-8bc7-8ff5d092bcc5")
-	)
-	(no_connect
-		(at 72.39 74.93)
-		(uuid "f531b569-ff1d-4b21-b6f4-71480f4b3bde")
 	)
 	(bus_entry
 		(at 171.45 131.445)
@@ -4128,6 +4120,17 @@
 		)
 		(uuid "8f15d144-ecc0-4c5c-a825-0e483ef82e14")
 	)
+	(hierarchical_label "LED9"
+		(shape passive)
+		(at 72.39 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e6b17f2-aff7-4733-bebb-14f9daa917bb")
+	)
 	(hierarchical_label "LED6"
 		(shape passive)
 		(at 46.99 72.39 180)
@@ -4138,6 +4141,17 @@
 			(justify right)
 		)
 		(uuid "b75be8e9-26ee-4ca8-ad32-1864eff8a4a2")
+	)
+	(hierarchical_label "LED8"
+		(shape passive)
+		(at 72.39 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c22bc1cc-91a1-4c11-b31b-5e0d1ba3e0eb")
 	)
 	(hierarchical_label "LED5"
 		(shape passive)

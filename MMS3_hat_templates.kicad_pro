@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -636,11 +636,62 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "MMS3_hat_templates.kicad_sch",
+        "name": "MMS3_hat_templates",
+        "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
+      }
+    ],
+    "used_designators": "Q1,Q5-6,Q13,Q17-18,Q27,Q31-32,Q39-53,D5-6,D10,#PWR74,#PWR77-78,#PWR81-83,#PWR117-118,#PWR123-126,R31-32,R34-35,R58-59,R61-62,R78-79,R81-82,R91-96",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "6596548a-44e0-46d8-8624-fd71cf4a3e17",
+      "MMS3_hat_templates"
+    ],
+    [
+      "fdb595ff-e94b-4e80-8fe7-e7d367588ab2",
+      "Interboard_connector"
+    ],
+    [
+      "ec6d73af-72b0-4068-85fb-cca3c5143749",
+      "Bus_switch"
+    ],
+    [
+      "f11c3b61-ae6a-4858-9d37-bbf426f44fb0",
+      "Power Connector"
+    ],
+    [
+      "56050d79-5900-47d6-893d-3da0e8bf5810",
+      "ID EEPROM"
+    ],
+    [
+      "9c50d694-b9ec-4000-86cb-9e963f960f44",
+      "LED_IC"
+    ],
+    [
+      "f4f5cc42-4af7-4189-bf2e-976157de876a",
+      "CH32V003"
+    ],
+    [
+      "1fa50cc0-81ad-4331-90de-681d56270af0",
+      "Buck Regulator"
+    ],
+    [
+      "f0498328-12ea-48bd-af20-2754c3443d1a",
+      "LEDController1"
+    ],
+    [
+      "fa62f7ef-38f0-4745-b285-add2290a5675",
+      "LEDController"
+    ],
+    [
+      "97917fec-c6f5-4dd2-aeb9-9036b4e52fd1",
+      "LEDController2"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

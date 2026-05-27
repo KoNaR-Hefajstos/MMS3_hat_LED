@@ -1795,12 +1795,6 @@
 		(uuid "9497a369-d276-4e81-a883-05fc8f9c0337")
 	)
 	(junction
-		(at 109.22 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce791b6b-69e3-43d8-984b-085df93e64b6")
-	)
-	(junction
 		(at 101.6 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1811,10 +1805,6 @@
 		(uuid "1294e8cc-6db1-48df-b2b9-522db6cbe0fa")
 	)
 	(no_connect
-		(at 231.14 132.08)
-		(uuid "44f841d8-c935-40c9-b10d-91a47678a049")
-	)
-	(no_connect
 		(at 231.14 104.14)
 		(uuid "45691839-2d97-4f3f-98f8-95ba858a8e02")
 	)
@@ -1823,16 +1813,8 @@
 		(uuid "5f0e5da8-44fd-474c-b7f6-d149ec49fbc1")
 	)
 	(no_connect
-		(at 231.14 127)
-		(uuid "8dddca03-46d4-47f8-8cce-3af8679c2005")
-	)
-	(no_connect
 		(at 231.14 101.6)
 		(uuid "952b40ab-5fa9-44d1-ba4e-3ec13063a289")
-	)
-	(no_connect
-		(at 231.14 129.54)
-		(uuid "974cca66-d54e-46ba-b09f-b74ef43c0250")
 	)
 	(no_connect
 		(at 96.52 80.01)
@@ -1888,16 +1870,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 148.59) (xy 231.14 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c6fcbdf-de5a-4e5c-9659-666e8710fc19")
-	)
-	(wire
-		(pts
 			(xy 92.71 176.53) (xy 102.87 176.53)
 		)
 		(stroke
@@ -1936,16 +1908,6 @@
 		)
 		(uuid "1a50f7ac-2ade-4f8e-b619-f93dfc9a2428")
 	)
-	(bus
-		(pts
-			(xy 109.22 77.47) (xy 116.84 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b231dcb-5736-4b7c-a956-da48d01f367c")
-	)
 	(wire
 		(pts
 			(xy 92.71 186.69) (xy 92.71 189.23)
@@ -1978,6 +1940,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 132.08) (xy 231.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb3c067-0004-4dfd-a555-1c4ca73e77b8")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 166.37 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c18a3ab-eb6d-49bd-89e7-9d7ed801c7d0")
+	)
+	(wire
+		(pts
 			(xy 246.38 20.32) (xy 252.73 20.32)
 		)
 		(stroke
@@ -1985,16 +1967,6 @@
 			(type default)
 		)
 		(uuid "31c97d19-2764-4ed7-a62e-e06871e8e732")
-	)
-	(wire
-		(pts
-			(xy 223.52 146.05) (xy 231.14 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32307d60-1bea-4dd5-b503-8bf473fbad52")
 	)
 	(bus
 		(pts
@@ -2248,16 +2220,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 151.13) (xy 231.14 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c07a2fe-89ee-4310-9a9f-50b78c213b57")
-	)
-	(wire
-		(pts
 			(xy 172.72 68.58) (xy 166.37 68.58)
 		)
 		(stroke
@@ -2275,6 +2237,16 @@
 			(type default)
 		)
 		(uuid "9c0006bf-0e1e-4169-87a4-a0a92cf16dc4")
+	)
+	(wire
+		(pts
+			(xy 223.52 127) (xy 231.14 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c89906e-2181-411b-9944-7f91346c9caf")
 	)
 	(bus
 		(pts
@@ -2295,6 +2267,16 @@
 			(type default)
 		)
 		(uuid "9ffaf023-1c05-4216-b32f-c48b0ce1d8df")
+	)
+	(wire
+		(pts
+			(xy 223.52 129.54) (xy 231.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a273ea98-adf6-4981-a0e0-acec647d443a")
 	)
 	(wire
 		(pts
@@ -2368,6 +2350,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 76.2) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b887feb3-0b79-48dd-a6ff-70bf3129ce2a")
+	)
+	(wire
+		(pts
 			(xy 127 176.53) (xy 127 177.8)
 		)
 		(stroke
@@ -2425,6 +2417,16 @@
 			(type default)
 		)
 		(uuid "e89a45d6-2eb2-46bd-a5b0-76b385fdd481")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 166.37 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebda9504-fa88-4f82-953e-97009772e880")
 	)
 	(wire
 		(pts
@@ -13211,6 +13213,16 @@
 		)
 		(uuid "1d9ac602-53ef-4b40-a226-cf5564a3d06c")
 	)
+	(label "G3"
+		(at 172.72 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1eff7a35-8ed7-4c72-a0d4-4f5597aa411b")
+	)
 	(label "R3"
 		(at 246.38 20.32 0)
 		(effects
@@ -13220,16 +13232,6 @@
 			(justify left bottom)
 		)
 		(uuid "203632d3-2176-470d-9a39-680e68ede070")
-	)
-	(label "Chainbus{I2C}"
-		(at 116.84 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f183f3a-adcd-4042-8bab-3e82902b135f")
 	)
 	(label "R1"
 		(at 172.72 55.88 180)
@@ -13242,7 +13244,7 @@
 		(uuid "48e53f25-5145-4aae-961e-fcddee6c8663")
 	)
 	(label "G2"
-		(at 223.52 148.59 0)
+		(at 223.52 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13282,7 +13284,7 @@
 		(uuid "5ddf2487-aaf0-44a7-a6c1-3ec11e07917c")
 	)
 	(label "B2"
-		(at 223.52 151.13 0)
+		(at 223.52 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13372,7 +13374,7 @@
 		(uuid "9de0ea26-6440-4c5f-a46c-9ef98d4bc515")
 	)
 	(label "R2"
-		(at 223.52 146.05 0)
+		(at 223.52 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13431,6 +13433,16 @@
 		)
 		(uuid "b3dbcc41-e264-40cc-a24a-a55c86d3e059")
 	)
+	(label "R3"
+		(at 172.72 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b56bc49e-398d-4f18-8870-1d033806dc5e")
+	)
 	(label "B2"
 		(at 184.15 57.15 0)
 		(effects
@@ -13460,6 +13472,16 @@
 			(justify right bottom)
 		)
 		(uuid "cef716e5-9958-4b7d-aa1b-9ecee48adc16")
+	)
+	(label "B3"
+		(at 172.72 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d0b53e99-6e9a-4ce9-a54a-e8e3061d9cd8")
 	)
 	(label "Chainbus.SDA"
 		(at 223.52 114.3 180)
@@ -16101,7 +16123,7 @@
 	)
 	(sheet
 		(at 135.89 53.34)
-		(size 30.48 20.32)
+		(size 30.48 25.146)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16127,7 +16149,7 @@
 			)
 		)
 		(property "Sheetfile" "LED_IC.kicad_sch"
-			(at 135.89 74.2446 0)
+			(at 135.89 79.0706 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16200,6 +16222,36 @@
 		(pin "LED5" passive
 			(at 166.37 68.58 0)
 			(uuid "07055953-38fb-4089-b2e1-fcc4cf23b20b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED6" passive
+			(at 166.37 71.12 0)
+			(uuid "14910516-d886-401b-a6a1-1b453abd31dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED7" passive
+			(at 166.37 73.66 0)
+			(uuid "c64ab0f7-a8bb-42e5-beb1-85f92e2bdc76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED8" passive
+			(at 166.37 76.2 0)
+			(uuid "7e8f927f-3664-4625-8a5e-122d57f3b52c")
 			(effects
 				(font
 					(size 1.27 1.27)
