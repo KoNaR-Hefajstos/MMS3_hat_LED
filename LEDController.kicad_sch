@@ -3934,6 +3934,12 @@
 		(uuid "d89def5d-5ee2-4dc6-9cb6-ab9e034c73c5")
 	)
 	(junction
+		(at 46.99 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de4a0ed0-b682-4ad7-b379-472e30f05a39")
+	)
+	(junction
 		(at 106.68 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4124,6 +4130,16 @@
 			(type default)
 		)
 		(uuid "20a1a537-6310-430b-82aa-9425eae70ad9")
+	)
+	(wire
+		(pts
+			(xy 46.99 74.93) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21358a8e-6de4-4e56-ab3d-861c07e5fe2a")
 	)
 	(wire
 		(pts
@@ -4397,6 +4413,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 68.58) (xy 62.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c24705d-26fe-44f0-98e2-262067d320b0")
+	)
+	(wire
+		(pts
 			(xy 87.63 27.94) (xy 87.63 33.02)
 		)
 		(stroke
@@ -4647,7 +4673,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 68.58) (xy 62.23 68.58)
+			(xy 44.45 68.58) (xy 46.99 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10668,6 +10694,17 @@
 		)
 		(uuid "acf3eab2-7ed7-49a5-942d-66b0fd3889f0")
 	)
+	(hierarchical_label "U_reg"
+		(shape input)
+		(at 46.99 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec7d52ce-8438-49fc-8d9b-30c85b27fda3")
+	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
 		(at 114.3 45.72 270)
@@ -10929,16 +10966,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R82")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R62")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -11231,16 +11260,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q34")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q8")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -11505,16 +11526,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R58")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R31")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -11780,16 +11793,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R86")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R39")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -11866,16 +11871,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0140")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -12142,16 +12139,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R77")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R30")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -12418,16 +12407,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R59")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R32")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -12504,16 +12485,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0132")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -12591,16 +12564,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0129")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR073")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -12893,16 +12858,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q33")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q7")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q19")
 					(unit 1)
 				)
 			)
@@ -13168,16 +13125,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R83")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R36")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -13470,16 +13419,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q37")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q11")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -13744,16 +13685,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R81")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R61")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -14019,16 +13952,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R74")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R27")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -14105,16 +14030,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0138")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR080")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -14191,16 +14108,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0131")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR075")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -14435,16 +14344,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "C20")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "C6")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -14711,16 +14612,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R85")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R38")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -15013,16 +14906,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q35")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q9")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q21")
 					(unit 1)
 				)
 			)
@@ -15315,16 +15200,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q32")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q27")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q31")
 					(unit 1)
 				)
 			)
@@ -15617,16 +15494,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q38")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q12")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -15919,16 +15788,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q36")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q10")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -16221,16 +16082,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q29")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q3")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q15")
 					(unit 1)
 				)
 			)
@@ -16307,16 +16160,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0126")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR0124")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -16582,16 +16427,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R87")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R40")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -16884,16 +16721,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q6")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q1")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -17160,16 +16989,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R89")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R42")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -17435,16 +17256,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R80")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R33")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -17710,16 +17523,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R90")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R43")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -18012,16 +17817,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q18")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q13")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q17")
 					(unit 1)
 				)
 			)
@@ -18286,16 +18083,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R75")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R28")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -18588,16 +18377,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q30")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q4")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -18674,16 +18455,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0136")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR079")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -18760,16 +18533,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "#PWR0123")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -19036,16 +18801,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "R73")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "R26")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -19141,16 +18898,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "J11")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "J6")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -19443,16 +19192,8 @@
 		)
 		(instances
 			(project "MMS3_hat_templates"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/97917fec-c6f5-4dd2-aeb9-9036b4e52fd1"
-					(reference "Q28")
-					(unit 1)
-				)
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f0498328-12ea-48bd-af20-2754c3443d1a"
 					(reference "Q2")
-					(unit 1)
-				)
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/fa62f7ef-38f0-4745-b285-add2290a5675"
-					(reference "Q14")
 					(unit 1)
 				)
 			)
