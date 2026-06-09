@@ -1860,16 +1860,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.71) (xy 153.67 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08b1a0b1-6be0-4611-8bf7-efd98f93133b")
-	)
-	(wire
-		(pts
 			(xy 92.71 176.53) (xy 102.87 176.53)
 		)
 		(stroke
@@ -2100,16 +2090,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 92.71) (xy 153.67 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d73043-6631-4fae-a32a-e33b4d062006")
-	)
-	(wire
-		(pts
 			(xy 172.72 68.58) (xy 166.37 68.58)
 		)
 		(stroke
@@ -2117,16 +2097,6 @@
 			(type default)
 		)
 		(uuid "9a836550-9e5f-4700-af15-8ef15a158157")
-	)
-	(wire
-		(pts
-			(xy 153.67 135.89) (xy 129.54 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b3523c6-553b-434b-b63b-9ac3fece4aaf")
 	)
 	(wire
 		(pts
@@ -2187,16 +2157,6 @@
 			(type default)
 		)
 		(uuid "b062bfe4-ffe7-44f7-9d68-690e6150068c")
-	)
-	(wire
-		(pts
-			(xy 220.98 63.5) (xy 220.98 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b145fcb3-9d73-4c44-a87f-f10d2fcdfea5")
 	)
 	(bus
 		(pts
@@ -15671,16 +15631,6 @@
 				(justify right)
 			)
 		)
-		(pin "U_reg" input
-			(at 129.54 135.89 0)
-			(uuid "72cbdb34-1af7-4805-92cf-74aa70e60af1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "MMS3_hat_templates"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
@@ -16018,16 +15968,6 @@
 		(pin "U_IN" input
 			(at 191.77 60.96 180)
 			(uuid "d243645b-afc2-40cf-b9d1-86f67588f5c9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "U_reg" input
-			(at 220.98 63.5 270)
-			(uuid "53e98802-8125-4dd3-a1f0-b3df00834a81")
 			(effects
 				(font
 					(size 1.27 1.27)
