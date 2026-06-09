@@ -601,6 +601,9 @@
       "/Buck Regulator/VIN_BRD": [
         "50V"
       ],
+      "/Buck Regulator/sw": [
+        "50V"
+      ],
       "/Buck Regulator/sw-vin": [
         "50V "
       ],
@@ -1087,7 +1090,7 @@
         "uuid": "6596548a-44e0-46d8-8624-fd71cf4a3e17"
       }
     ],
-    "used_designators": "D7-8,D10",
+    "used_designators": "#PWR59-72,#PWR121-122,D3-4,D7-8,D10,C5,Q25-26,R12-25,R71-72,U4",
     "variants": []
   },
   "sheets": [
@@ -1112,7 +1115,7 @@
       "ID EEPROM"
     ],
     [
-      "9c50d694-b9ec-4000-86cb-9e963f960f44",
+      "c8e56476-6be0-42b3-a024-01e48ff3342c",
       "LED_IC"
     ],
     [

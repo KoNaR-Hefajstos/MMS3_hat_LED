@@ -3656,7 +3656,7 @@
 	)
 	(text "IC control\n\n"
 		(exclude_from_sim no)
-		(at 27.686 18.034 0)
+		(at 26.924 20.066 0)
 		(effects
 			(font
 				(size 2.54 2.54)
